@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import {
   Table,
@@ -206,7 +205,10 @@ export default function Home() {
       {/* card */}
       <div className="row justify-content-center">
         {products.map((item) => (
-          <div style={{ width: "fit-content" }} className="col-xl-4 col-12 col-lg-6 col-md-3">
+          <div
+            style={{ width: "fit-content" }}
+            className="col-xl-4 col-12 col-lg-6 col-md-3"
+          >
             <Card key={item.id} sx={{ maxWidth: 345, my: 3 }}>
               <CardHeader
                 avatar={
@@ -221,7 +223,6 @@ export default function Home() {
                 }
                 title={item.title}
                 subheader="September 14, 2016"
-
               />
               <CardMedia
                 component="img"
