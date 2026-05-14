@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import PageCard from "../components/PageCard";
-import CustomInput from "../components/customInput";
+import CustomInput from "../components/CustomInput";
 import CustomButton from "../components/CustomButton";
 import { getStudentById, updateStudent } from "../utils/storage";
 import { Select, MenuItem, FormControl, InputLabel } from "@mui/material";

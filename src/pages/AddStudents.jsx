@@ -4,7 +4,7 @@ import PageCard from "../components/PageCard";
 import CustomButton from "../components/CustomButton";
 import { addStudent } from "../utils/storage";
 import { Select, MenuItem, FormControl, InputLabel } from "@mui/material";
-import CustomInput from "../components/customInput";
+import CustomInput from "../components/CustomInput";
 
 export default function AddStudent() {
   const navigate = useNavigate();
